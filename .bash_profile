@@ -6,6 +6,7 @@ function CLOSE_COLOR () { echo -ne '\e[m'; }
 alias ll="ls -la"
 
 #git specific
+alias gti="git"
 alias gs="git status"
 
 if [ -f ~/.git-completion.bash ] && [ -f ~/.git-prompt.sh ]
