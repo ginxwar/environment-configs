@@ -3,7 +3,7 @@ function CLOSE_COLOR () { echo -ne '\e[m'; }
 
 #export PS1="\[`EXT_COLOR 203`\]\u\[`CLOSE_COLOR`\] at\[`EXT_COLOR 208`\] \H\[`CLOSE_COLOR`\] in\[`EXT_COLOR 148`\] \w \[`CLOSE_COLOR`\] \n\$ "
 
-alias ll="ls -la"
+alias ll="ls -lahFG"
 
 #git specific
 alias gti="git"
