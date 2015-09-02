@@ -8,7 +8,7 @@ alias ll="ls -lahFG"
 #git specific
 alias gti="git"
 alias gs="git status"
-alias gl="git log"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 if [ -f ~/.git-completion.bash ] && [ -f ~/.git-prompt.sh ]
 then
