@@ -14,3 +14,7 @@ then
 else
   export PS1="\[`EXT_COLOR 203`\]\u\[`CLOSE_COLOR`\] at\[`EXT_COLOR 208`\] \H\[`CLOSE_COLOR`\] in\[`EXT_COLOR 148`\] \w \[`CLOSE_COLOR`\] \n\$ "
 fi
+
+# node version manager
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
