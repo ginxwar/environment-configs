@@ -18,3 +18,6 @@ fi
 # node version manager
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
+
+# path
+PATH=$PATH:~/bin
