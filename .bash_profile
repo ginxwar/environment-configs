@@ -21,3 +21,7 @@ export NVM_DIR=~/.nvm
 
 # path
 PATH=$PATH:~/bin
+
+# history size
+HISTSIZE=100000
+HISTFILESIZE=100000
