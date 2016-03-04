@@ -25,3 +25,7 @@ PATH=$PATH:~/bin
 # history size
 HISTSIZE=100000
 HISTFILESIZE=100000
+
+# ls colors
+CLICOLOR=1
+LSCOLORS=GxFxCxDxBxegedabagaced
