@@ -27,5 +27,5 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 
 # ls colors
-CLICOLOR=1
-LSCOLORS=GxFxCxDxBxegedabagaced
+export CLICOLOR=1
+export LSCOLORS=CxFxExDxBxegedabagaced
