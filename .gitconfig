@@ -1,0 +1,31 @@
+[user]
+	email = kevin.wu@ucsb.edu
+	name = Kevin Wu
+[core]
+	excludesfile = /Users/kevinwu/.gitignore_global
+	# insanely beautiful diffs
+  pager = bash -lc 'diff-highlight | diff-so-fancy | less -r'
+[pull]
+  rebase = true
+[alias]
+    unadd = reset HEAD-
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  commit = green bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = cyan
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
