@@ -1,0 +1,3 @@
+# Atom config
+
+* FiraCode
