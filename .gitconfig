@@ -4,7 +4,8 @@
 [core]
 	excludesfile = /Users/kevinwu/.gitignore_global
 	# insanely beautiful diffs
-  pager = bash -lc 'diff-highlight | diff-so-fancy | less -r'
+  # pager = bash -lc 'diff-highlight | diff-so-fancy | less -r'
+   pager = diff-so-fancy | less --tabs=4 -RFX
 [pull]
   rebase = true
 [alias]
