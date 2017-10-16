@@ -13,3 +13,4 @@
 * minimap-git-diff
 * [pigments](https://atom.io/packages/pigments)
 * sort-lines
+* [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
