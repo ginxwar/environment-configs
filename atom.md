@@ -17,3 +17,11 @@
 * [prettier-atom](https://atom.io/packages/prettier-atom)
 * [jumpy](https://github.com/DavidLGoldberg/jumpy)
 * [expand-region](https://github.com/aki77/atom-expand-region)
+
+keymap.cson
+```
+'atom-text-editor':
+  'alt-up': 'expand-region:expand'
+  'alt-down': 'expand-region:shrink'
+
+```
