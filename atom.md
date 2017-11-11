@@ -16,3 +16,4 @@
 * [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
 * [prettier-atom](https://atom.io/packages/prettier-atom)
 * [jumpy](https://github.com/DavidLGoldberg/jumpy)
+* [expand-region](https://github.com/aki77/atom-expand-region)
